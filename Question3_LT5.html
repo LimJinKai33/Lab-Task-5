@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> 
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" id="pageone">
+		<div data-role="header">
+			<h1>Header</h1>
+		</div>
+		
+		<button class="ui-btn ui-shadow ui-btn-inline ui-btn-icon-left ui-icon-home">White icon</button>
+		<button class="ui-alt-icon ui-btn ui-shadow ui-btn-inline ui-btn-icon-left ui-icon-home">Black icon</button>
+		<a href="#pagetwo" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-corner-all">Go to Listview Ordered Page</a>
+		<a href="#pagethree" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-corner-all">Go to Highlight Slider Page</a>
+		
+		<div data-role="footer">
+			<h1>Footer</h1>
+			<a href="index.html" class="btn-ui-inline ui-shadow" data-ajax="false">Back to Index.html</a>
+		</div>
+	</div>
+	
+	<div data-role="page" id="pagetwo">
+		<div data-role="header">
+			<h1>List of Subjects</h1>
+		</div>
+		
+		<ol data-role="listview" data-inset="true" class="ui-btn ui-shadow">
+  		  <li><a href="#">Data Structure</a></li>
+   		  <li><a href="#">Database design</a></li>
+    	  <li><a href="#">Web Design Technologies</a></li>
+   		  <li><a href="#">System Analysis and Design</a></li>
+      	  <li><a href="#">Human Computer Interaction</a></li>
+		</ol>
+		
+		<a href="#pageone" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Go to black & white icon Page</a>
+		<a href="#pagethree" class="ui-btn ui-btn-inline ui-icon-arrow-r ui-btn-icon-right">Go to Highlight Slider Page</a>
+		
+		<div data-role="footer">
+			<h1>Footer</h1>
+			<a href="index.html" class="btn-ui-inline ui-shadow" data-ajax="false">Back to Index.html</a>
+		</div>
+	</div>
+	
+	<div data-role="page" id="pagethree">
+		<div data-role="header">
+			<h1>Personal Information</h1>
+		</div>
+		
+		<label for="slider2">Level of skills:</label>
+        <input type="range" name="slider2" id="slider2" value="0" min="0" max="100" data-highlight="true">
+		
+		<a href="#pageone" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Go to black & white icon Page</a>
+		<a href="#pagetwo" class="ui-btn ui-btn-inline ui-icon-arrow-l ui-btn-icon-left">Go to Listview Ordered Page</a>
+		
+		<div data-role="footer">
+			<h1>Footer</h1>
+			<a href="index.html" class="btn-ui-inline ui-shadow" data-ajax="false">Back to Index.html</a>
+		</div>
+	</div>
+</body>
+</html>

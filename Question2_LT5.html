@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> 
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+button ,a{
+	text-decoration: none;
+	color:black;
+}
+</style>
+</head>
+<body>
+<div data-role="page">
+	<div data-role="header">
+		<h1>Calling, SMS and E-Mail</h1>
+	</div>
+	
+	<div data-role="content" style="text-align:center;">
+		<div data-role="controlgroup" data-type="horizontal">
+			<table cellspacing="20" cellpadding="20">
+				<tr>
+					<td><img src="images/call.png"/><br><h1>TELEPHONE<br>011-58860640</h1></td>
+					<td><img src="images/sms.png"/><br><h1>SMS<br>011-58860640</h1></td>
+					<td><img src="images/email.png"><br><h1>EMAIL<br>psp.edu.my</h1></td>
+				</tr>
+				<tr>
+					<td><a class="ui-btn" href="tel:+60115860640">Call now</a></td>
+					<td><a class="ui-btn" href="sms:+60115860640">SMS now</a></td>
+					<td><a class="ui-btn" href="mailto:psp44@gmail.com">Email now</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div data-role="footer">
+		<a href="index.html" class="btn-ui-inline ui-shadow" data-ajax="false">Back to Index.html</a>
+	</div>
+</div>
+</body>
+</html>
